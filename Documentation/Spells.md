@@ -1,3 +1,334 @@
+## Table of Contents
+
+- [1. - Acid Splash (V,S) level 0 Conjuration [SOL]](#1---acid-splash-vs-level-0-conjuration-sol)
+- [2. - Annoying Bee (V,S) level 0 Illusion [SOL]](#2---annoying-bee-vs-level-0-illusion-sol)
+- [3. - *Blade Ward* (V,S) level 0 Abjuration [UB]](#3---blade-ward-vs-level-0-abjuration-ub)
+- [4. - *Booming Blade* (M,S) level 0 Evocation [UB]](#4---booming-blade-ms-level-0-evocation-ub)
+- [5. - Chill Touch (V,S) level 0 Necromancy [SOL]](#5---chill-touch-vs-level-0-necromancy-sol)
+- [6. - *Create Bonfire* (V,S) level 0 Conjuration [Concentration] [UB]](#6---create-bonfire-vs-level-0-conjuration-concentration-ub)
+- [7. - Dancing Lights (V,S) level 0 Evocation [Concentration] [SOL]](#7---dancing-lights-vs-level-0-evocation-concentration-sol)
+- [8. - Dazzle (S) level 0 Illusion [SOL]](#8---dazzle-s-level-0-illusion-sol)
+- [9. - Eldritch Blast (V,S) level 0 Evocation [SOL]](#9---eldritch-blast-vs-level-0-evocation-sol)
+- [10. - Fire Bolt (V,S) level 0 Evocation [SOL]](#10---fire-bolt-vs-level-0-evocation-sol)
+- [11. - *Green-Flame Blade* (M,S) level 0 Evocation [UB]](#11---green-flame-blade-ms-level-0-evocation-ub)
+- [12. - Guidance (V,S) level 0 Divination [Concentration] [SOL]](#12---guidance-vs-level-0-divination-concentration-sol)
+- [13. - *Gust* (V,S) level 0 Transmutation [UB]](#13---gust-vs-level-0-transmutation-ub)
+- [14. - Illuminating Sphere (V,S) level 0 Enchantment [UB]](#14---illuminating-sphere-vs-level-0-enchantment-ub)
+- [15. - *Infestation* (V,S) level 0 Conjuration [UB]](#15---infestation-vs-level-0-conjuration-ub)
+- [16. - Light (V) level 0 Evocation [SOL]](#16---light-v-level-0-evocation-sol)
+- [17. - *Lightning Lure* (V) level 0 Evocation [UB]](#17---lightning-lure-v-level-0-evocation-ub)
+- [18. - *Mind Sliver* (V) level 0 Enchantment [UB]](#18---mind-sliver-v-level-0-enchantment-ub)
+- [19. - Minor Lifesteal (V,S) level 0 Necromancy [UB]](#19---minor-lifesteal-vs-level-0-necromancy-ub)
+- [20. - Poison Spray (V,S) level 0 Conjuration [SOL]](#20---poison-spray-vs-level-0-conjuration-sol)
+- [21. - *Primal Savagery* (S) level 0 Transmutation [UB]](#21---primal-savagery-s-level-0-transmutation-ub)
+- [22. - Produce Flame (V,S) level 0 Conjuration [SOL]](#22---produce-flame-vs-level-0-conjuration-sol)
+- [23. - Ray of Frost (V,S) level 0 Evocation [SOL]](#23---ray-of-frost-vs-level-0-evocation-sol)
+- [24. - Resistance (V,S) level 0 Abjuration [Concentration] [SOL]](#24---resistance-vs-level-0-abjuration-concentration-sol)
+- [25. - Sacred Flame (V,S) level 0 Evocation [SOL]](#25---sacred-flame-vs-level-0-evocation-sol)
+- [26. - *Sapping Sting* (V,S) level 0 Necromancy [UB]](#26---sapping-sting-vs-level-0-necromancy-ub)
+- [27. - Shadow Armor (V,S) level 0 Abjuration [SOL]](#27---shadow-armor-vs-level-0-abjuration-sol)
+- [28. - Shadow Dagger (V,S) level 0 Illusion [SOL]](#28---shadow-dagger-vs-level-0-illusion-sol)
+- [29. - Shillelagh (V,S) level 0 Transmutation [SOL]](#29---shillelagh-vs-level-0-transmutation-sol)
+- [30. - Shine (V,S) level 0 Conjuration [SOL]](#30---shine-vs-level-0-conjuration-sol)
+- [31. - Shocking Grasp (V,S) level 0 Evocation [SOL]](#31---shocking-grasp-vs-level-0-evocation-sol)
+- [32. - Spare the Dying (S) level 0 Necromancy [SOL]](#32---spare-the-dying-s-level-0-necromancy-sol)
+- [33. - Sparkle (V,S) level 0 Enchantment [SOL]](#33---sparkle-vs-level-0-enchantment-sol)
+- [34. - *Starry Wisp* (V,S) level 0 Evocation [UB]](#34---starry-wisp-vs-level-0-evocation-ub)
+- [35. - Sunlit Blade (M,S) level 0 Evocation [UB]](#35---sunlit-blade-ms-level-0-evocation-ub)
+- [36. - *Sword Burst* (V,S) level 0 Enchantment [UB]](#36---sword-burst-vs-level-0-enchantment-ub)
+- [37. - *Thorn Whip* (V,S) level 0 Transmutation [UB]](#37---thorn-whip-vs-level-0-transmutation-ub)
+- [38. - *Thunderclap* (V,S) level 0 Evocation [UB]](#38---thunderclap-vs-level-0-evocation-ub)
+- [39. - *Toll the Dead* (V,S) level 0 Necromancy [UB]](#39---toll-the-dead-vs-level-0-necromancy-ub)
+- [40. - True Strike (S) level 0 Divination [Concentration] [SOL]](#40---true-strike-s-level-0-divination-concentration-sol)
+- [41. - Venomous Spike (V,S) level 0 Enchantment [SOL]](#41---venomous-spike-vs-level-0-enchantment-sol)
+- [42. - Vicious Mockery (V) level 0 Enchantment [SOL]](#42---vicious-mockery-v-level-0-enchantment-sol)
+- [43. - *Word of Radiance* (V) level 0 Evocation [UB]](#43---word-of-radiance-v-level-0-evocation-ub)
+- [44. - Wrack (V,S) level 0 Necromancy [UB]](#44---wrack-vs-level-0-necromancy-ub)
+- [45. - *Absorb Elements* (S) level 1 Abjuration [UB]](#45---absorb-elements-s-level-1-abjuration-ub)
+- [46. - Animal Friendship (V,S) level 1 Enchantment [SOL]](#46---animal-friendship-vs-level-1-enchantment-sol)
+- [47. - *Armor of Agathys* (V,S) level 1 Abjuration [UB]](#47---armor-of-agathys-vs-level-1-abjuration-ub)
+- [48. - *Arms of Hadar* (V,S) level 1 Evocation [UB]](#48---arms-of-hadar-vs-level-1-evocation-ub)
+- [49. - Bane (V,S) level 1 Enchantment [Concentration] [SOL]](#49---bane-vs-level-1-enchantment-concentration-sol)
+- [50. - Bless (V,S) level 1 Enchantment [Concentration] [SOL]](#50---bless-vs-level-1-enchantment-concentration-sol)
+- [51. - Burning Hands (V,S) level 1 Evocation [SOL]](#51---burning-hands-vs-level-1-evocation-sol)
+- [52. - Caustic Zap (V,S) level 1 Evocation [UB]](#52---caustic-zap-vs-level-1-evocation-ub)
+- [53. - *Chaos Bolt* (V,S) level 1 Evocation [UB]](#53---chaos-bolt-vs-level-1-evocation-ub)
+- [54. - Charm Person (V,S) level 1 Enchantment [SOL]](#54---charm-person-vs-level-1-enchantment-sol)
+- [55. - *Chromatic Orb* (M,V,S) level 1 Evocation [UB]](#55---chromatic-orb-mvs-level-1-evocation-ub)
+- [56. - Color Spray (V,S) level 1 Illusion [SOL]](#56---color-spray-vs-level-1-illusion-sol)
+- [57. - *Command* (V) level 1 Enchantment [UB]](#57---command-v-level-1-enchantment-ub)
+- [58. - Comprehend Languages (V,S) level 1 Divination [SOL]](#58---comprehend-languages-vs-level-1-divination-sol)
+- [59. - Cure Wounds (V,S) level 1 Evocation [SOL]](#59---cure-wounds-vs-level-1-evocation-sol)
+- [60. - Detect Evil and Good (V,S) level 1 Divination [Concentration] [SOL]](#60---detect-evil-and-good-vs-level-1-divination-concentration-sol)
+- [61. - Detect Magic (V,S) level 1 Divination [Concentration] [SOL]](#61---detect-magic-vs-level-1-divination-concentration-sol)
+- [62. - Detect Poison and Disease (V,S) level 1 Divination [Concentration] [SOL]](#62---detect-poison-and-disease-vs-level-1-divination-concentration-sol)
+- [63. - *Dissonant Whispers* (V) level 1 Enchantment [UB]](#63---dissonant-whispers-v-level-1-enchantment-ub)
+- [64. - Divine Favor (V,S) level 1 Evocation [Concentration] [SOL]](#64---divine-favor-vs-level-1-evocation-concentration-sol)
+- [65. - *Earth Tremor* (V,S) level 1 Evocation [UB]](#65---earth-tremor-vs-level-1-evocation-ub)
+- [66. - *Ensnaring Strike* (V) level 1 Conjuration [Concentration] [UB]](#66---ensnaring-strike-v-level-1-conjuration-concentration-ub)
+- [67. - Entangle (V,S) level 1 Conjuration [Concentration] [SOL]](#67---entangle-vs-level-1-conjuration-concentration-sol)
+- [68. - Expeditious Retreat (V,S) level 1 Transmutation [Concentration] [SOL]](#68---expeditious-retreat-vs-level-1-transmutation-concentration-sol)
+- [69. - Faerie Fire (V) level 1 Evocation [Concentration] [SOL]](#69---faerie-fire-v-level-1-evocation-concentration-sol)
+- [70. - False Life (V,S) level 1 Necromancy [SOL]](#70---false-life-vs-level-1-necromancy-sol)
+- [71. - Feather Fall (V) level 1 Transmutation [SOL]](#71---feather-fall-v-level-1-transmutation-sol)
+- [72. - *Find Familiar* (V,S) level 1 Conjuration [UB]](#72---find-familiar-vs-level-1-conjuration-ub)
+- [73. - Fog Cloud (V,S) level 1 Conjuration [Concentration] [SOL]](#73---fog-cloud-vs-level-1-conjuration-concentration-sol)
+- [74. - *Gift of Alacrity* (V,S) level 1 Divination [UB]](#74---gift-of-alacrity-vs-level-1-divination-ub)
+- [75. - Goodberry (V,S) level 1 Transmutation [SOL]](#75---goodberry-vs-level-1-transmutation-sol)
+- [76. - Grease (V,S) level 1 Conjuration [SOL]](#76---grease-vs-level-1-conjuration-sol)
+- [77. - Guiding Bolt (V,S) level 1 Evocation [SOL]](#77---guiding-bolt-vs-level-1-evocation-sol)
+- [78. - *Hail of Thorns* (V) level 1 Conjuration [Concentration] [UB]](#78---hail-of-thorns-v-level-1-conjuration-concentration-ub)
+- [79. - Healing Word (V) level 1 Evocation [SOL]](#79---healing-word-v-level-1-evocation-sol)
+- [80. - Hellish Rebuke (V,S) level 1 Evocation [SOL]](#80---hellish-rebuke-vs-level-1-evocation-sol)
+- [81. - Heroism (V,S) level 1 Enchantment [Concentration] [SOL]](#81---heroism-vs-level-1-enchantment-concentration-sol)
+- [82. - Hideous Laughter (V,S) level 1 Enchantment [Concentration] [SOL]](#82---hideous-laughter-vs-level-1-enchantment-concentration-sol)
+- [83. - Hunter's Mark (V) level 1 Divination [Concentration] [SOL]](#83---hunters-mark-v-level-1-divination-concentration-sol)
+- [84. - *Ice Knife* (S) level 1 Conjuration [UB]](#84---ice-knife-s-level-1-conjuration-ub)
+- [85. - Identify (M,V,S) level 1 Divination [SOL]](#85---identify-mvs-level-1-divination-sol)
+- [86. - Inflict Wounds (V,S) level 1 Necromancy [SOL]](#86---inflict-wounds-vs-level-1-necromancy-sol)
+- [87. - Jump (V,S) level 1 Transmutation [SOL]](#87---jump-vs-level-1-transmutation-sol)
+- [88. - Jump (V,S) level 1 Transmutation [SOL]](#88---jump-vs-level-1-transmutation-sol)
+- [89. - Longstrider (V,S) level 1 Transmutation [SOL]](#89---longstrider-vs-level-1-transmutation-sol)
+- [90. - Mage Armor (V,S) level 1 Abjuration [SOL]](#90---mage-armor-vs-level-1-abjuration-sol)
+- [91. - Magic Missile (V,S) level 1 Evocation [SOL]](#91---magic-missile-vs-level-1-evocation-sol)
+- [92. - *Magnify Gravity* (V,S) level 1 Transmutation [UB]](#92---magnify-gravity-vs-level-1-transmutation-ub)
+- [93. - Malediction (V,S) level 1 Enchantment [Concentration] [SOL]](#93---malediction-vs-level-1-enchantment-concentration-sol)
+- [94. - Mule (V,S) level 1 Transmutation [UB]](#94---mule-vs-level-1-transmutation-ub)
+- [95. - Protect vs Evil and Good (V,S) level 1 Abjuration [Concentration] [SOL]](#95---protect-vs-evil-and-good-vs-level-1-abjuration-concentration-sol)
+- [96. - Radiant Motes (V,S) level 1 Evocation [UB]](#96---radiant-motes-vs-level-1-evocation-ub)
+- [97. - *Ray of Sickness* (V,S) level 1 Necromancy [UB]](#97---ray-of-sickness-vs-level-1-necromancy-ub)
+- [98. - *Sanctuary* (V,S) level 1 Abjuration [UB]](#98---sanctuary-vs-level-1-abjuration-ub)
+- [99. - *Searing Smite* (V) level 1 Evocation [Concentration] [UB]](#99---searing-smite-v-level-1-evocation-concentration-ub)
+- [100. - Shield (V,S) level 1 Abjuration [SOL]](#100---shield-vs-level-1-abjuration-sol)
+- [101. - Shield of Faith (V,S) level 1 Abjuration [Concentration] [SOL]](#101---shield-of-faith-vs-level-1-abjuration-concentration-sol)
+- [102. - Sleep (V,S) level 1 Enchantment [SOL]](#102---sleep-vs-level-1-enchantment-sol)
+- [103. - *Tasha's Caustic Brew* (V,S) level 1 Evocation [Concentration] [UB]](#103---tashas-caustic-brew-vs-level-1-evocation-concentration-ub)
+- [104. - *Thunderous Smite* (V) level 1 Evocation [Concentration] [UB]](#104---thunderous-smite-v-level-1-evocation-concentration-ub)
+- [105. - Thunderwave (V,S) level 1 Evocation [SOL]](#105---thunderwave-vs-level-1-evocation-sol)
+- [106. - Tiefling's Hellish Rebuke (V,S) level 1 Evocation [SOL]](#106---tieflings-hellish-rebuke-vs-level-1-evocation-sol)
+- [107. - *Witch Bolt* (V,S) level 1 Evocation [Concentration] [UB]](#107---witch-bolt-vs-level-1-evocation-concentration-ub)
+- [108. - *Wrathful Smite* (V) level 1 Necromancy [Concentration] [UB]](#108---wrathful-smite-v-level-1-necromancy-concentration-ub)
+- [109. - *Zephyr Strike* (V) level 1 Transmutation [Concentration] [UB]](#109---zephyr-strike-v-level-1-transmutation-concentration-ub)
+- [110. - Acid Arrow (V,S) level 2 Evocation [SOL]](#110---acid-arrow-vs-level-2-evocation-sol)
+- [111. - *Aganazzar's Scorcher* (V,S) level 2 Evocation [UB]](#111---aganazzars-scorcher-vs-level-2-evocation-ub)
+- [112. - Aid (V,S) level 2 Abjuration [SOL]](#112---aid-vs-level-2-abjuration-sol)
+- [113. - Barkskin (V,S) level 2 Transmutation [Concentration] [SOL]](#113---barkskin-vs-level-2-transmutation-concentration-sol)
+- [114. - Blindness (V) level 2 Necromancy [SOL]](#114---blindness-v-level-2-necromancy-sol)
+- [115. - Blur (V) level 2 Illusion [Concentration] [SOL]](#115---blur-v-level-2-illusion-concentration-sol)
+- [116. - *Borrowed Knowledge* (V,S) level 2 Divination [UB]](#116---borrowed-knowledge-vs-level-2-divination-ub)
+- [117. - Branding Smite (V) level 2 Evocation [Concentration] [SOL]](#117---branding-smite-v-level-2-evocation-concentration-sol)
+- [118. - Calm Emotions (V,S) level 2 Enchantment [Concentration] [SOL]](#118---calm-emotions-vs-level-2-enchantment-concentration-sol)
+- [119. - *Cloud of Daggers* (V,S) level 2 Conjuration [Concentration] [UB]](#119---cloud-of-daggers-vs-level-2-conjuration-concentration-ub)
+- [120. - Color Burst (V,S) level 2 Illusion [UB]](#120---color-burst-vs-level-2-illusion-ub)
+- [121. - Conjure Goblinoids (V,S) level 2 Conjuration [Concentration] [UB]](#121---conjure-goblinoids-vs-level-2-conjuration-concentration-ub)
+- [122. - Darkness (V) level 2 Evocation [Concentration] [SOL]](#122---darkness-v-level-2-evocation-concentration-sol)
+- [123. - Darkvision (V,S) level 2 Transmutation [SOL]](#123---darkvision-vs-level-2-transmutation-sol)
+- [124. - Enhance Ability (V,S) level 2 Transmutation [Concentration] [SOL]](#124---enhance-ability-vs-level-2-transmutation-concentration-sol)
+- [125. - Find Traps (V,S) level 2 Evocation [SOL]](#125---find-traps-vs-level-2-evocation-sol)
+- [126. - Flame Blade (V,S) level 2 Evocation [Concentration] [SOL]](#126---flame-blade-vs-level-2-evocation-concentration-sol)
+- [127. - Flaming Sphere (V,S) level 2 Evocation [Concentration] [SOL]](#127---flaming-sphere-vs-level-2-evocation-concentration-sol)
+- [128. - Heat Metal (V,S) level 2 Transmutation [Concentration] [SOL]](#128---heat-metal-vs-level-2-transmutation-concentration-sol)
+- [129. - Hold Person (V,S) level 2 Enchantment [Concentration] [SOL]](#129---hold-person-vs-level-2-enchantment-concentration-sol)
+- [130. - Invisibility (V,S) level 2 Illusion [Concentration] [SOL]](#130---invisibility-vs-level-2-illusion-concentration-sol)
+- [131. - *Kinetic Jaunt* (S) level 2 Transmutation [Concentration] [UB]](#131---kinetic-jaunt-s-level-2-transmutation-concentration-ub)
+- [132. - Knock (V) level 2 Transmutation [SOL]](#132---knock-v-level-2-transmutation-sol)
+- [133. - Lesser Restoration (V,S) level 2 Abjuration [SOL]](#133---lesser-restoration-vs-level-2-abjuration-sol)
+- [134. - Levitate (V,S) level 2 Transmutation [Concentration] [SOL]](#134---levitate-vs-level-2-transmutation-concentration-sol)
+- [135. - Levitate (V,S) level 2 Transmutation [Concentration] [SOL]](#135---levitate-vs-level-2-transmutation-concentration-sol)
+- [136. - Magic Weapon (V,S) level 2 Transmutation [Concentration] [SOL]](#136---magic-weapon-vs-level-2-transmutation-concentration-sol)
+- [137. - *Mirror Image* (V,S) level 2 Illusion [UB]](#137---mirror-image-vs-level-2-illusion-ub)
+- [138. - Misty Step (V) level 2 Conjuration [SOL]](#138---misty-step-v-level-2-conjuration-sol)
+- [139. - Moon Beam (V,S) level 2 Evocation [Concentration] [SOL]](#139---moon-beam-vs-level-2-evocation-concentration-sol)
+- [140. - Noxious Spray (V,S) level 2 Evocation [UB]](#140---noxious-spray-vs-level-2-evocation-ub)
+- [141. - Pass Without Trace (V,S) level 2 Abjuration [Concentration] [SOL]](#141---pass-without-trace-vs-level-2-abjuration-concentration-sol)
+- [142. - Petal Storm (V,S) level 2 Conjuration [Concentration] [UB]](#142---petal-storm-vs-level-2-conjuration-concentration-ub)
+- [143. - Prayer of Healing (V) level 2 Evocation [SOL]](#143---prayer-of-healing-v-level-2-evocation-sol)
+- [144. - Protect Threshold (V,S) level 2 Abjuration [UB]](#144---protect-threshold-vs-level-2-abjuration-ub)
+- [145. - Protection from Poison (V,S) level 2 Abjuration [SOL]](#145---protection-from-poison-vs-level-2-abjuration-sol)
+- [146. - Ray of Enfeeblement (V,S) level 2 Necromancy [Concentration] [SOL]](#146---ray-of-enfeeblement-vs-level-2-necromancy-concentration-sol)
+- [147. - *Rime's Binding Ice* (S) level 2 Evocation [UB]](#147---rimes-binding-ice-s-level-2-evocation-ub)
+- [148. - Scorching Ray (V,S) level 2 Evocation [SOL]](#148---scorching-ray-vs-level-2-evocation-sol)
+- [149. - See Invisibility (V,S) level 2 Divination [SOL]](#149---see-invisibility-vs-level-2-divination-sol)
+- [150. - *Shadow Blade* (V,S) level 2 Illusion [Concentration] [UB]](#150---shadow-blade-vs-level-2-illusion-concentration-ub)
+- [151. - Shatter (V,S) level 2 Evocation [SOL]](#151---shatter-vs-level-2-evocation-sol)
+- [152. - Silence (V,S) level 2 Illusion [Concentration] [SOL]](#152---silence-vs-level-2-illusion-concentration-sol)
+- [153. - *Snilloc's Snowball Storm* (V,S) level 2 Evocation [UB]](#153---snillocs-snowball-storm-vs-level-2-evocation-ub)
+- [154. - Spider Climb (V,S) level 2 Transmutation [Concentration] [SOL]](#154---spider-climb-vs-level-2-transmutation-concentration-sol)
+- [155. - Spike Growth (V,S) level 2 Transmutation [Concentration] [SOL]](#155---spike-growth-vs-level-2-transmutation-concentration-sol)
+- [156. - Spiritual Weapon (V,S) level 2 Evocation [SOL]](#156---spiritual-weapon-vs-level-2-evocation-sol)
+- [157. - *Tasha's Mind Whip* (V) level 2 Enchantment [UB]](#157---tashas-mind-whip-v-level-2-enchantment-ub)
+- [158. - *Warding Bond* (V,S) level 2 Abjuration [SOL]](#158---warding-bond-vs-level-2-abjuration-sol)
+- [159. - *Web* (V,S) level 2 Conjuration [Concentration] [UB]](#159---web-vs-level-2-conjuration-concentration-ub)
+- [160. - *Wither and Bloom* (V,S) level 2 Necromancy [UB]](#160---wither-and-bloom-vs-level-2-necromancy-ub)
+- [161. - Adder's Fangs (V,S) level 3 Conjuration [UB]](#161---adders-fangs-vs-level-3-conjuration-ub)
+- [162. - *Ashardalon's Stride* (V,S) level 3 Transmutation [Concentration] [UB]](#162---ashardalons-stride-vs-level-3-transmutation-concentration-ub)
+- [163. - *Aura of Vitality* (V) level 3 Evocation [Concentration] [UB]](#163---aura-of-vitality-v-level-3-evocation-concentration-ub)
+- [164. - Beacon of Hope (V,S) level 3 Abjuration [Concentration] [SOL]](#164---beacon-of-hope-vs-level-3-abjuration-concentration-sol)
+- [165. - Bestow Curse (V,S) level 3 Necromancy [Concentration] [SOL]](#165---bestow-curse-vs-level-3-necromancy-concentration-sol)
+- [166. - *Blinding Smite* (V) level 3 Evocation [Concentration] [UB]](#166---blinding-smite-v-level-3-evocation-concentration-ub)
+- [167. - Call Lightning (V,S) level 3 Conjuration [Concentration] [SOL]](#167---call-lightning-vs-level-3-conjuration-concentration-sol)
+- [168. - Conjure Animal (V,S) level 3 Conjuration [Concentration] [SOL]](#168---conjure-animal-vs-level-3-conjuration-concentration-sol)
+- [169. - Corrupting Bolt (V,S) level 3 Necromancy [UB]](#169---corrupting-bolt-vs-level-3-necromancy-ub)
+- [170. - Counterspell (S) level 3 Abjuration [SOL]](#170---counterspell-s-level-3-abjuration-sol)
+- [171. - Create Food (S) level 3 Conjuration [SOL]](#171---create-food-s-level-3-conjuration-sol)
+- [172. - *Crusader's Mantle* (V) level 3 Evocation [Concentration] [UB]](#172---crusaders-mantle-v-level-3-evocation-concentration-ub)
+- [173. - Daylight (V,S) level 3 Evocation [SOL]](#173---daylight-vs-level-3-evocation-sol)
+- [174. - Dispel Magic (V,S) level 3 Abjuration [SOL]](#174---dispel-magic-vs-level-3-abjuration-sol)
+- [175. - *Elemental Weapon* (V,S) level 3 Transmutation [Concentration] [UB]](#175---elemental-weapon-vs-level-3-transmutation-concentration-ub)
+- [176. - Fear (V,S) level 3 Illusion [Concentration] [SOL]](#176---fear-vs-level-3-illusion-concentration-sol)
+- [177. - Fireball (V,S) level 3 Evocation [SOL]](#177---fireball-vs-level-3-evocation-sol)
+- [178. - *Flame Arrows* (M,V,S) level 3 Transmutation [Concentration] [UB]](#178---flame-arrows-mvs-level-3-transmutation-concentration-ub)
+- [179. - Fly (V,S) level 3 Transmutation [Concentration] [SOL]](#179---fly-vs-level-3-transmutation-concentration-sol)
+- [180. - Haste (V,S) level 3 Transmutation [Concentration] [SOL]](#180---haste-vs-level-3-transmutation-concentration-sol)
+- [181. - *Hunger of Hadar* (V,S) level 3 Transmutation [Concentration] [UB]](#181---hunger-of-hadar-vs-level-3-transmutation-concentration-ub)
+- [182. - Hypnotic Pattern (S) level 3 Illusion [Concentration] [SOL]](#182---hypnotic-pattern-s-level-3-illusion-concentration-sol)
+- [183. - *Intellect Fortress* (V) level 3 Abjuration [Concentration] [UB]](#183---intellect-fortress-v-level-3-abjuration-concentration-ub)
+- [184. - *Life Transference* (V,S) level 3 Necromancy [UB]](#184---life-transference-vs-level-3-necromancy-ub)
+- [185. - *Lightning Arrow* (V,S) level 3 Transmutation [Concentration] [UB]](#185---lightning-arrow-vs-level-3-transmutation-concentration-ub)
+- [186. - Lightning Bolt (V,S) level 3 Evocation [SOL]](#186---lightning-bolt-vs-level-3-evocation-sol)
+- [187. - Mass Healing Word (V) level 3 Evocation [SOL]](#187---mass-healing-word-v-level-3-evocation-sol)
+- [188. - Protection from Energy (V,S) level 3 Abjuration [Concentration] [SOL]](#188---protection-from-energy-vs-level-3-abjuration-concentration-sol)
+- [189. - *Pulse Wave* (V,S) level 3 Evocation [UB]](#189---pulse-wave-vs-level-3-evocation-ub)
+- [190. - Remove Curse (V,S) level 3 Abjuration [SOL]](#190---remove-curse-vs-level-3-abjuration-sol)
+- [191. - Revivify (M,V,S) level 3 Necromancy [SOL]](#191---revivify-mvs-level-3-necromancy-sol)
+- [192. - Sleet Storm (V,S) level 3 Conjuration [Concentration] [SOL]](#192---sleet-storm-vs-level-3-conjuration-concentration-sol)
+- [193. - Slow (V,S) level 3 Transmutation [Concentration] [SOL]](#193---slow-vs-level-3-transmutation-concentration-sol)
+- [194. - Spirit Guardians (V,S) level 3 Conjuration [Concentration] [SOL]](#194---spirit-guardians-vs-level-3-conjuration-concentration-sol)
+- [195. - *Spirit Shroud* (V,S) level 3 Necromancy [Concentration] [UB]](#195---spirit-shroud-vs-level-3-necromancy-concentration-ub)
+- [196. - Stinking Cloud (V,S) level 3 Conjuration [Concentration] [SOL]](#196---stinking-cloud-vs-level-3-conjuration-concentration-sol)
+- [197. - *Thunder Step* (V) level 3 Conjuration [UB]](#197---thunder-step-v-level-3-conjuration-ub)
+- [198. - Tongues (V) level 3 Divination [SOL]](#198---tongues-v-level-3-divination-sol)
+- [199. - Vampiric Touch (V,S) level 3 Necromancy [Concentration] [SOL]](#199---vampiric-touch-vs-level-3-necromancy-concentration-sol)
+- [200. - Wind Wall (V,S) level 3 Evocation [Concentration] [SOL]](#200---wind-wall-vs-level-3-evocation-concentration-sol)
+- [201. - Winter's Breath (V,S) level 3 Conjuration [UB]](#201---winters-breath-vs-level-3-conjuration-ub)
+- [202. - *Aura of Life* (V) level 4 Abjuration [Concentration] [UB]](#202---aura-of-life-v-level-4-abjuration-concentration-ub)
+- [203. - *Aura of Purity* (V) level 4 Abjuration [Concentration] [UB]](#203---aura-of-purity-v-level-4-abjuration-concentration-ub)
+- [204. - Banishment (V,S) level 4 Abjuration [Concentration] [SOL]](#204---banishment-vs-level-4-abjuration-concentration-sol)
+- [205. - Black Tentacles (V,S) level 4 Conjuration [Concentration] [SOL]](#205---black-tentacles-vs-level-4-conjuration-concentration-sol)
+- [206. - Blessing of Rime (V,S) level 4 Evocation [UB]](#206---blessing-of-rime-vs-level-4-evocation-ub)
+- [207. - Blight (V,S) level 4 Necromancy [SOL]](#207---blight-vs-level-4-necromancy-sol)
+- [208. - Brain Bulwark (V) level 4 Abjuration [UB]](#208---brain-bulwark-v-level-4-abjuration-ub)
+- [209. - Confusion (V,S) level 4 Enchantment [Concentration] [SOL]](#209---confusion-vs-level-4-enchantment-concentration-sol)
+- [210. - Conjure 4 Elementals (V,S) level 4 Conjuration [Concentration] [SOL]](#210---conjure-4-elementals-vs-level-4-conjuration-concentration-sol)
+- [211. - Conjure Minor Elementals (V,S) level 4 Conjuration [Concentration] [SOL]](#211---conjure-minor-elementals-vs-level-4-conjuration-concentration-sol)
+- [212. - Death Ward (V,S) level 4 Abjuration [SOL]](#212---death-ward-vs-level-4-abjuration-sol)
+- [213. - Dimension Door (V) level 4 Conjuration [SOL]](#213---dimension-door-v-level-4-conjuration-sol)
+- [214. - Dominate Beast (V,S) level 4 Enchantment [Concentration] [SOL]](#214---dominate-beast-vs-level-4-enchantment-concentration-sol)
+- [215. - Dreadful Omen (V,S) level 4 Enchantment [SOL]](#215---dreadful-omen-vs-level-4-enchantment-sol)
+- [216. - *Elemental Bane* (V,S) level 4 Transmutation [Concentration] [UB]](#216---elemental-bane-vs-level-4-transmutation-concentration-ub)
+- [217. - Fire Shield (V,S) level 4 Evocation [SOL]](#217---fire-shield-vs-level-4-evocation-sol)
+- [218. - Freedom of Movement (V,S) level 4 Abjuration [SOL]](#218---freedom-of-movement-vs-level-4-abjuration-sol)
+- [219. - Giant Insect (V,S) level 4 Transmutation [Concentration] [SOL]](#219---giant-insect-vs-level-4-transmutation-concentration-sol)
+- [220. - *Gravity Sinkhole* (V,S) level 4 Evocation [UB]](#220---gravity-sinkhole-vs-level-4-evocation-ub)
+- [221. - Greater Invisibility (V,S) level 4 Illusion [Concentration] [SOL]](#221---greater-invisibility-vs-level-4-illusion-concentration-sol)
+- [222. - Guardian of Faith (V) level 4 Conjuration [SOL]](#222---guardian-of-faith-v-level-4-conjuration-sol)
+- [223. - *Guardian of Nature* (V) level 4 Transmutation [Concentration] [UB]](#223---guardian-of-nature-v-level-4-transmutation-concentration-ub)
+- [224. - Ice Storm (V,S) level 4 Evocation [SOL]](#224---ice-storm-vs-level-4-evocation-sol)
+- [225. - Identify Creatures (V,S) level 4 Divination [SOL]](#225---identify-creatures-vs-level-4-divination-sol)
+- [226. - Irresistible Performance (V) level 4 Enchantment [UB]](#226---irresistible-performance-v-level-4-enchantment-ub)
+- [227. - *Mordenkainen's Faithful Hound* (V,S) level 4 Conjuration [UB]](#227---mordenkainens-faithful-hound-vs-level-4-conjuration-ub)
+- [228. - Phantasmal Killer (V,S) level 4 Illusion [Concentration] [SOL]](#228---phantasmal-killer-vs-level-4-illusion-concentration-sol)
+- [229. - Psionic Blast (V) level 4 Evocation [UB]](#229---psionic-blast-v-level-4-evocation-ub)
+- [230. - *Raulothim's Psychic Lance* (V) level 4 Enchantment [UB]](#230---raulothims-psychic-lance-v-level-4-enchantment-ub)
+- [231. - *Sickening Radiance* (V,S) level 4 Evocation [Concentration] [UB]](#231---sickening-radiance-vs-level-4-evocation-concentration-ub)
+- [232. - *Staggering Smite* (V) level 4 Evocation [Concentration] [UB]](#232---staggering-smite-v-level-4-evocation-concentration-ub)
+- [233. - Stoneskin (M,V,S) level 4 Abjuration [Concentration] [SOL]](#233---stoneskin-mvs-level-4-abjuration-concentration-sol)
+- [234. - *Vitriolic Sphere* (V,S) level 4 Evocation [UB]](#234---vitriolic-sphere-vs-level-4-evocation-ub)
+- [235. - Wall of Fire (V,S) level 4 Evocation [Concentration] [SOL]](#235---wall-of-fire-vs-level-4-evocation-concentration-sol)
+- [236. - *Banishing Smite* (V) level 5 Conjuration [Concentration] [UB]](#236---banishing-smite-v-level-5-conjuration-concentration-ub)
+- [237. - *Circle of Power* (V) level 5 Abjuration [Concentration] [UB]](#237---circle-of-power-v-level-5-abjuration-concentration-ub)
+- [238. - Cloudkill (V,S) level 5 Conjuration [Concentration] [SOL]](#238---cloudkill-vs-level-5-conjuration-concentration-sol)
+- [239. - Cone of Cold (V,S) level 5 Evocation [SOL]](#239---cone-of-cold-vs-level-5-evocation-sol)
+- [240. - Conjure Elemental (V,S) level 5 Conjuration [Concentration] [SOL]](#240---conjure-elemental-vs-level-5-conjuration-concentration-sol)
+- [241. - Contagion (V,S) level 5 Necromancy [SOL]](#241---contagion-vs-level-5-necromancy-sol)
+- [242. - *Dawn* (V,S) level 5 Evocation [Concentration] [UB]](#242---dawn-vs-level-5-evocation-concentration-ub)
+- [243. - *Destructive Wave* (V) level 5 Evocation [UB]](#243---destructive-wave-v-level-5-evocation-ub)
+- [244. - Dispel Evil and Good (V,S) level 5 Abjuration [Concentration] [SOL]](#244---dispel-evil-and-good-vs-level-5-abjuration-concentration-sol)
+- [245. - Dominate Person (V,S) level 5 Enchantment [Concentration] [SOL]](#245---dominate-person-vs-level-5-enchantment-concentration-sol)
+- [246. - *Far Step* (V) level 5 Conjuration [Concentration] [UB]](#246---far-step-v-level-5-conjuration-concentration-ub)
+- [247. - Flame Strike (V,S) level 5 Evocation [SOL]](#247---flame-strike-vs-level-5-evocation-sol)
+- [248. - Greater Restoration (V,S) level 5 Abjuration [SOL]](#248---greater-restoration-vs-level-5-abjuration-sol)
+- [249. - Hold Monster (V,S) level 5 Enchantment [Concentration] [SOL]](#249---hold-monster-vs-level-5-enchantment-concentration-sol)
+- [250. - *Holy Weapon* (V,S) level 5 Evocation [Concentration] [UB]](#250---holy-weapon-vs-level-5-evocation-concentration-ub)
+- [251. - *Immolation* (V) level 5 Evocation [Concentration] [UB]](#251---immolation-v-level-5-evocation-concentration-ub)
+- [252. - Insect Plague (V,S) level 5 Conjuration [Concentration] [SOL]](#252---insect-plague-vs-level-5-conjuration-concentration-sol)
+- [253. - Mantle of Thorns (V,S) level 5 Transmutation [Concentration] [UB]](#253---mantle-of-thorns-vs-level-5-transmutation-concentration-ub)
+- [254. - Mass Cure Wounds (V,S) level 5 Evocation [SOL]](#254---mass-cure-wounds-vs-level-5-evocation-sol)
+- [255. - Mind Twist (V,S) level 5 Enchantment [SOL]](#255---mind-twist-vs-level-5-enchantment-sol)
+- [256. - Raise Dead (M,V,S) level 5 Necromancy [SOL]](#256---raise-dead-mvs-level-5-necromancy-sol)
+- [257. - *Skill Empowerment* (V,S) level 5 Divination [UB]](#257---skill-empowerment-vs-level-5-divination-ub)
+- [258. - Sonic Boom (V,S) level 5 Evocation [UB]](#258---sonic-boom-vs-level-5-evocation-ub)
+- [259. - *Steel Wind Strike* (M,S) level 5 Conjuration [UB]](#259---steel-wind-strike-ms-level-5-conjuration-ub)
+- [260. - *Swift Quiver* (M,V,S) level 5 Transmutation [Concentration] [UB]](#260---swift-quiver-mvs-level-5-transmutation-concentration-ub)
+- [261. - *Synaptic Static* (V) level 5 Evocation [UB]](#261---synaptic-static-v-level-5-evocation-ub)
+- [262. - *Telekinesis* (V,S) level 5 Transmutation [Concentration] [UB]](#262---telekinesis-vs-level-5-transmutation-concentration-ub)
+- [263. - Blade Barrier (V,S) level 6 Evocation [Concentration] [SOL]](#263---blade-barrier-vs-level-6-evocation-concentration-sol)
+- [264. - Chain Lightning (V,S) level 6 Evocation [SOL]](#264---chain-lightning-vs-level-6-evocation-sol)
+- [265. - Circle of Death (M,V,S) level 6 Necromancy [SOL]](#265---circle-of-death-mvs-level-6-necromancy-sol)
+- [266. - Conjure Fey (V,S) level 6 Conjuration [Concentration] [SOL]](#266---conjure-fey-vs-level-6-conjuration-concentration-sol)
+- [267. - Disintegrate (V,S) level 6 Transmutation [SOL]](#267---disintegrate-vs-level-6-transmutation-sol)
+- [268. - Eyebite (V,S) level 6 Necromancy [Concentration] [SOL]](#268---eyebite-vs-level-6-necromancy-concentration-sol)
+- [269. - *Fizban's Platinum Shield* (M,V,S) level 6 Abjuration [Concentration] [UB]](#269---fizbans-platinum-shield-mvs-level-6-abjuration-concentration-ub)
+- [270. - Flash Freeze (V,S) level 6 Evocation [UB]](#270---flash-freeze-vs-level-6-evocation-ub)
+- [271. - Freezing Sphere (V,S) level 6 Evocation [SOL]](#271---freezing-sphere-vs-level-6-evocation-sol)
+- [272. - Globe Of Invulnerability (V,S) level 6 Abjuration [Concentration] [SOL]](#272---globe-of-invulnerability-vs-level-6-abjuration-concentration-sol)
+- [273. - *Gravity Fissure* (V,S) level 6 Evocation [UB]](#273---gravity-fissure-vs-level-6-evocation-ub)
+- [274. - Harm (V,S) level 6 Necromancy [SOL]](#274---harm-vs-level-6-necromancy-sol)
+- [275. - Heal (V,S) level 6 Evocation [SOL]](#275---heal-vs-level-6-evocation-sol)
+- [276. - Heroes Feast (M,V,S) level 6 Conjuration [SOL]](#276---heroes-feast-mvs-level-6-conjuration-sol)
+- [277. - Hilarity (V) level 6 Enchantment [Concentration] [SOL]](#277---hilarity-v-level-6-enchantment-concentration-sol)
+- [278. - Poison Wave (M,V,S) level 6 Evocation [UB]](#278---poison-wave-mvs-level-6-evocation-ub)
+- [279. - Ring of Blades (M,V,S) level 6 Conjuration [Concentration] [UB]](#279---ring-of-blades-mvs-level-6-conjuration-concentration-ub)
+- [280. - *Scatter* (V) level 6 Conjuration [UB]](#280---scatter-v-level-6-conjuration-ub)
+- [281. - Shelter from Energy (V,S) level 6 Abjuration [UB]](#281---shelter-from-energy-vs-level-6-abjuration-ub)
+- [282. - Sunbeam (V,S) level 6 Evocation [Concentration] [SOL]](#282---sunbeam-vs-level-6-evocation-concentration-sol)
+- [283. - *Tasha's Otherworldly Guise* (M,V,S) level 6 Transmutation [Concentration] [UB]](#283---tashas-otherworldly-guise-mvs-level-6-transmutation-concentration-ub)
+- [284. - *Tenser's Transformation* (V,S) level 6 Transmutation [Concentration] [UB]](#284---tensers-transformation-vs-level-6-transmutation-concentration-ub)
+- [285. - True Seeing (V,S) level 6 Divination [SOL]](#285---true-seeing-vs-level-6-divination-sol)
+- [286. - Wall of Thorns (V,S) level 6 Conjuration [Concentration] [SOL]](#286---wall-of-thorns-vs-level-6-conjuration-concentration-sol)
+- [287. - Arcane Sword (M,V,S) level 7 Evocation [Concentration] [SOL]](#287---arcane-sword-mvs-level-7-evocation-concentration-sol)
+- [288. - Conjure Celestial (V,S) level 7 Conjuration [Concentration] [SOL]](#288---conjure-celestial-vs-level-7-conjuration-concentration-sol)
+- [289. - *Crown of Stars* (V,S) level 7 Evocation [UB]](#289---crown-of-stars-vs-level-7-evocation-ub)
+- [290. - Delayed Blast Fireball (V,S) level 7 Evocation [Concentration] [SOL]](#290---delayed-blast-fireball-vs-level-7-evocation-concentration-sol)
+- [291. - Divine Word (V) level 7 Evocation [SOL]](#291---divine-word-v-level-7-evocation-sol)
+- [292. - *Draconic Transformation* (M,V,S) level 7 Transmutation [Concentration] [UB]](#292---draconic-transformation-mvs-level-7-transmutation-concentration-ub)
+- [293. - Finger of Death (V,S) level 7 Necromancy [SOL]](#293---finger-of-death-vs-level-7-necromancy-sol)
+- [294. - Fire Storm (V,S) level 7 Evocation [SOL]](#294---fire-storm-vs-level-7-evocation-sol)
+- [295. - Gravity Slam (V,S) level 7 Transmutation [SOL]](#295---gravity-slam-vs-level-7-transmutation-sol)
+- [296. - Prismatic Spray (V,S) level 7 Evocation [SOL]](#296---prismatic-spray-vs-level-7-evocation-sol)
+- [297. - Regenerate (V,S) level 7 Transmutation [SOL]](#297---regenerate-vs-level-7-transmutation-sol)
+- [298. - Rescue the Dying (V) level 7 Transmutation [UB]](#298---rescue-the-dying-v-level-7-transmutation-ub)
+- [299. - Resurrection (M,V,S) level 7 Necromancy [SOL]](#299---resurrection-mvs-level-7-necromancy-sol)
+- [300. - *Reverse Gravity* (V,S) level 7 Transmutation [Concentration] [UB]](#300---reverse-gravity-vs-level-7-transmutation-concentration-ub)
+- [301. - Symbol (V,S) level 7 Abjuration [SOL]](#301---symbol-vs-level-7-abjuration-sol)
+- [302. - *Abi-Dalzim's Horrid Wilting* (V,S) level 8 Necromancy [UB]](#302---abi-dalzims-horrid-wilting-vs-level-8-necromancy-ub)
+- [303. - Divine Blade (V,S) level 8 Evocation [Concentration] [SOL]](#303---divine-blade-vs-level-8-evocation-concentration-sol)
+- [304. - Dominate Monster (V,S) level 8 Enchantment [Concentration] [SOL]](#304---dominate-monster-vs-level-8-enchantment-concentration-sol)
+- [305. - Earthquake (V,S) level 8 Evocation [Concentration] [SOL]](#305---earthquake-vs-level-8-evocation-concentration-sol)
+- [306. - Feeblemind (V,S) level 8 Enchantment [SOL]](#306---feeblemind-vs-level-8-enchantment-sol)
+- [307. - *Glibness* (V) level 8 Transmutation [UB]](#307---glibness-v-level-8-transmutation-ub)
+- [308. - Holy Aura (V,S) level 8 Abjuration [Concentration] [SOL]](#308---holy-aura-vs-level-8-abjuration-concentration-sol)
+- [309. - Incendiary Cloud (V,S) level 8 Conjuration [Concentration] [SOL]](#309---incendiary-cloud-vs-level-8-conjuration-concentration-sol)
+- [310. - *Maddening Darkness* (V) level 8 Evocation [Concentration] [UB]](#310---maddening-darkness-v-level-8-evocation-concentration-ub)
+- [311. - Maze (V,S) level 8 Abjuration [Concentration] [SOL]](#311---maze-vs-level-8-abjuration-concentration-sol)
+- [312. - *Mind Blank* (V,S) level 8 Transmutation [UB]](#312---mind-blank-vs-level-8-transmutation-ub)
+- [313. - Power Word Stun (V) level 8 Enchantment [SOL]](#313---power-word-stun-v-level-8-enchantment-sol)
+- [314. - Soul Expulsion (V,S) level 8 Necromancy [UB]](#314---soul-expulsion-vs-level-8-necromancy-ub)
+- [315. - Spell Ward (V,S) level 8 Abjuration [Concentration] [SOL]](#315---spell-ward-vs-level-8-abjuration-concentration-sol)
+- [316. - Sunburst (V,S) level 8 Evocation [SOL]](#316---sunburst-vs-level-8-evocation-sol)
+- [317. - Thunderstorm (V,S) level 8 Transmutation [SOL]](#317---thunderstorm-vs-level-8-transmutation-sol)
+- [318. - Wild Shapes (V,S) level 8 Transmutation [Concentration] [SOL]](#318---wild-shapes-vs-level-8-transmutation-concentration-sol)
+- [319. - *Foresight* (V,S) level 9 Transmutation [UB]](#319---foresight-vs-level-9-transmutation-ub)
+- [320. - *Invulnerability* (M,V,S) level 9 Abjuration [Concentration] [UB]](#320---invulnerability-mvs-level-9-abjuration-concentration-ub)
+- [321. - *Mass Heal* (V,S) level 9 Transmutation [UB]](#321---mass-heal-vs-level-9-transmutation-ub)
+- [322. - *Meteor Swarm* (V,S) level 9 Transmutation [UB]](#322---meteor-swarm-vs-level-9-transmutation-ub)
+- [323. - *Power Word Heal* (V) level 9 Enchantment [UB]](#323---power-word-heal-v-level-9-enchantment-ub)
+- [324. - *Power Word Kill* (V,S) level 9 Transmutation [UB]](#324---power-word-kill-vs-level-9-transmutation-ub)
+- [325. - *Psychic Scream* (S) level 9 Enchantment [UB]](#325---psychic-scream-s-level-9-enchantment-ub)
+- [326. - *Shapechange* (M,V,S) level 9 Transmutation [Concentration] [UB]](#326---shapechange-mvs-level-9-transmutation-concentration-ub)
+- [327. - *Time Stop* (V) level 9 Transmutation [UB]](#327---time-stop-v-level-9-transmutation-ub)
+- [328. - *Weird* (V,S) level 9 Illusion [Concentration] [UB]](#328---weird-vs-level-9-illusion-concentration-ub)
+
 # 1. - Acid Splash (V,S) level 0 Conjuration [SOL]
 
 **[Artificer, Sorcerer, Wizard]**
@@ -10,13 +341,13 @@ Launch an acid bolt.
 
 The target sees an illusional bee harassing them and has disadvantage on concentration checks until the start of their next turn.
 
-# 3. - *Blade Ward* © (V,S) level 0 Abjuration [UB]
+# 3. - *Blade Ward* (V,S) level 0 Abjuration [UB]
 
 **[Bard, Sorcerer, Warlock, Wizard]**
 
 You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.
 
-# 4. - *Booming Blade* © (M,S) level 0 Evocation [UB]
+# 4. - *Booming Blade* (M,S) level 0 Evocation [UB]
 
 **[Artificer, Sorcerer, Warlock, Wizard]**
 
@@ -28,7 +359,7 @@ You brandish the weapon used in the spell's casting and make a melee attack with
 
 Deal damage to one enemy and prevent healing for a limited time.
 
-# 6. - *Create Bonfire* © (V,S) level 0 Conjuration [Concentration] [UB]
+# 6. - *Create Bonfire* (V,S) level 0 Conjuration [Concentration] [UB]
 
 **[Artificer, Druid, Sorcerer, Warlock, Wizard]**
 
@@ -58,7 +389,7 @@ Unleash a beam of crackling energy with a ranged spell attack against the target
 
 Launch a fire bolt.
 
-# 11. - *Green-Flame Blade* © (M,S) level 0 Evocation [UB]
+# 11. - *Green-Flame Blade* (M,S) level 0 Evocation [UB]
 
 **[Artificer, Sorcerer, Warlock, Wizard]**
 
@@ -70,7 +401,7 @@ You brandish the weapon used in the spell's casting and make a melee attack with
 
 Increase an ally's ability checks for a limited time.
 
-# 13. - *Gust* © (V,S) level 0 Transmutation [UB]
+# 13. - *Gust* (V,S) level 0 Transmutation [UB]
 
 **[Druid, Sorcerer, Wizard]**
 
@@ -82,7 +413,7 @@ Fire a blast of focused air at your target.
 
 Causes light sources such as torches and mana lamps in the area of effect to light up.
 
-# 15. - *Infestation* © (V,S) level 0 Conjuration [UB]
+# 15. - *Infestation* (V,S) level 0 Conjuration [UB]
 
 **[Druid, Sorcerer, Warlock, Wizard]**
 
@@ -94,13 +425,13 @@ You cause a cloud of mites, fleas, and other parasites to appear momentarily on 
 
 An object you can touch emits a powerful light for a limited time.
 
-# 17. - *Lightning Lure* © (V) level 0 Evocation [UB]
+# 17. - *Lightning Lure* (V) level 0 Evocation [UB]
 
 **[Artificer, Sorcerer, Warlock, Wizard]**
 
 You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 ft of you. The target must succeed on a Strength saving throw or be pulled up to 10 ft in a straight line toward you and then take 1d8 lightning damage. The spell's damage increases by an additional die at 5th, 11th and 17th level.
 
-# 18. - *Mind Sliver* © (V) level 0 Enchantment [UB]
+# 18. - *Mind Sliver* (V) level 0 Enchantment [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
@@ -118,7 +449,7 @@ You drain vital energy from a nearby enemy creature. Make a melee spell attack a
 
 Fire a poison spray at an enemy you can see, within range.
 
-# 21. - *Primal Savagery* © (S) level 0 Transmutation [UB]
+# 21. - *Primal Savagery* (S) level 0 Transmutation [UB]
 
 **[Druid]**
 
@@ -148,7 +479,7 @@ Grant an ally a one-time bonus to saving throws.
 
 Strike an enemy with radiant damage.
 
-# 26. - *Sapping Sting* © (V,S) level 0 Necromancy [UB]
+# 26. - *Sapping Sting* (V,S) level 0 Necromancy [UB]
 
 **[Wizard]**
 
@@ -196,7 +527,7 @@ Choose a creature within range that has 0 Hit Points and isn't dead. The creatur
 
 Target up to three objects that can be illuminated and light them up immediately.
 
-# 34. - *Starry Wisp* © (V,S) level 0 Evocation [UB]
+# 34. - *Starry Wisp* (V,S) level 0 Evocation [UB]
 
 **[Bard, Druid]**
 
@@ -208,25 +539,25 @@ You launch a mote of light at one creature or object within range. Make a ranged
 
 You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 ft distance. On a hit, the target suffers the weapon attack's normal effects, and is enveloped in glowing radiant energy, shedding dim light for the turn. Next attack against this creature while it is highlighted is done with advantage. At 5th level, the melee attack deals an extra 1d8 radiant damage to the target. The damage increases by another 1d8 at 11th and 17th levels.
 
-# 36. - *Sword Burst* © (V,S) level 0 Enchantment [UB]
+# 36. - *Sword Burst* (V,S) level 0 Enchantment [UB]
 
 **[Artificer, Sorcerer, Warlock, Wizard]**
 
 You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 ft of you must each succeed on a Dexterity saving throw or take 1d6 force damage.
 
-# 37. - *Thorn Whip* © (V,S) level 0 Transmutation [UB]
+# 37. - *Thorn Whip* (V,S) level 0 Transmutation [UB]
 
 **[Artificer, Druid]**
 
 You create a long, whip-like vine covered in thorns that lashes out at your command toward a creature in range. Make a ranged spell attack against the target. If the attack hits, the creature takes 1d6 piercing damage, and you pull the creature up to 10 ft closer to you.
 
-# 38. - *Thunderclap* © (V,S) level 0 Evocation [UB]
+# 38. - *Thunderclap* (V,S) level 0 Evocation [UB]
 
 **[Artificer, Bard, Druid, Sorcerer, Warlock, Wizard]**
 
 Create a burst of thundering sound, forcing creatures adjacent to you to make a Constitution saving throw or take 1d6 thunder damage. The spell's damage increases by an additional die at 5th, 11th and 17th level.
 
-# 39. - *Toll the Dead* © (V,S) level 0 Necromancy [UB]
+# 39. - *Toll the Dead* (V,S) level 0 Necromancy [UB]
 
 **[Cleric, Warlock, Wizard]**
 
@@ -250,7 +581,7 @@ A bone spike that pierces and poisons its target.
 
 Unleash a torrent of magically-enhanced insults on a creature you can see. It must make a successful wisdom saving throw, or take psychic damage and have disadvantage on its next attack roll. The effect lasts until the end of its next turn.
 
-# 43. - *Word of Radiance* © (V) level 0 Evocation [UB]
+# 43. - *Word of Radiance* (V) level 0 Evocation [UB]
 
 **[Cleric]**
 
@@ -262,7 +593,7 @@ Create a brilliant flash of shimmering light, damaging all enemies around you.
 
 Unleash a wave of crippling pain at a creature within range. The target must make a Constitution saving throw or take 1d6 necrotic damage, and preventing them from dashing or disengaging.
 
-# 45. - *Absorb Elements* © (S) level 1 Abjuration [UB]
+# 45. - *Absorb Elements* (S) level 1 Abjuration [UB]
 
 **[Druid, Ranger, Sorcerer, Wizard]**
 
@@ -274,13 +605,13 @@ The spell captures some of the incoming energy, lessening its effect on you and 
 
 Choose a beast that you can see within the spell's range. The beast must make a Wisdom saving throw or be charmed for the spell's duration.
 
-# 47. - *Armor of Agathys* © (V,S) level 1 Abjuration [UB]
+# 47. - *Armor of Agathys* (V,S) level 1 Abjuration [UB]
 
 **[Warlock]**
 
 A protective elemental skin envelops you, covering you and your gear. You gain 5 temporary hit points per spell level for the duration. In addition, if a creature hits you with a melee attack while you have these temporary hit points, the creature takes 5 cold damage per spell level.
 
-# 48. - *Arms of Hadar* © (V,S) level 1 Evocation [UB]
+# 48. - *Arms of Hadar* (V,S) level 1 Evocation [UB]
 
 **[Warlock]**
 
@@ -310,7 +641,7 @@ Spray a cone of fire in front of you.
 
 You send a jolt of green energy toward the target momentarily disorientating them as the spell burn some of their armor. The spell targets one enemy with a spell attack and deals 1d4 acid and 1d6 lightning damage and applies the dazzled condition.
 
-# 53. - *Chaos Bolt* © (V,S) level 1 Evocation [UB]
+# 53. - *Chaos Bolt* (V,S) level 1 Evocation [UB]
 
 **[Sorcerer]**
 
@@ -327,7 +658,7 @@ If you roll the same number on both d8s, you can use your free action to target 
 
 Makes an ally of an enemy.
 
-# 55. - *Chromatic Orb* © (M,V,S) level 1 Evocation [UB]
+# 55. - *Chromatic Orb* (M,V,S) level 1 Evocation [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -339,7 +670,7 @@ You hurl a 4-inch-diameter sphere of energy at a creature that you can see withi
 
 Spray a luminous cone that briefly blinds your enemies. Roll 6d10: the total is how many hit points of creatures this spell can affect.
 
-# 57. - *Command* © (V) level 1 Enchantment [UB]
+# 57. - *Command* (V) level 1 Enchantment [UB]
 
 **[Bard, Cleric, Paladin]**
 
@@ -377,7 +708,7 @@ Detect nearby magic objects or creatures.
 
 TMP For the duration you sense the presence and location of poisonous creatures and diseases within 6 cells of you.
 
-# 63. - *Dissonant Whispers* © (V) level 1 Enchantment [UB]
+# 63. - *Dissonant Whispers* (V) level 1 Enchantment [UB]
 
 **[Bard]**
 
@@ -389,13 +720,13 @@ You whisper a discordant melody that only one creature of your choice within ran
 
 Gain additional radiant damage for a limited time.
 
-# 65. - *Earth Tremor* © (V,S) level 1 Evocation [UB]
+# 65. - *Earth Tremor* (V,S) level 1 Evocation [UB]
 
 **[Bard, Druid, Sorcerer, Wizard]**
 
 You strike the ground and unleash a tremor of seismic force, hurling up earth, rock, and sand.
 
-# 66. - *Ensnaring Strike* © (V) level 1 Conjuration [Concentration] [UB]
+# 66. - *Ensnaring Strike* (V) level 1 Conjuration [Concentration] [UB]
 
 **[Ranger]**
 
@@ -431,7 +762,7 @@ Gain a few temporary hit points for a limited time.
 
 Provide a safe landing when you or an ally falls.
 
-# 72. - *Find Familiar* © (V,S) level 1 Conjuration [UB]
+# 72. - *Find Familiar* (V,S) level 1 Conjuration [UB]
 
 **[Wizard]**
 
@@ -443,7 +774,7 @@ You gain the service of a familiar. The familiar can use the help action, and yo
 
 Generate a sphere of thick fog for a limited time. The area is heavily obscured, penalizing creatures inside it that rely on sight.
 
-# 74. - *Gift of Alacrity* © (V,S) level 1 Divination [UB]
+# 74. - *Gift of Alacrity* (V,S) level 1 Divination [UB]
 
 **[Wizard]**
 
@@ -467,7 +798,7 @@ Cover an area of 2 x 2 cells with grease. Creatures trying to cross it may fall 
 
 Launch a radiant attack against an enemy and make them easy to hit.
 
-# 78. - *Hail of Thorns* © (V) level 1 Conjuration [Concentration] [UB]
+# 78. - *Hail of Thorns* (V) level 1 Conjuration [Concentration] [UB]
 
 **[Ranger]**
 
@@ -503,7 +834,7 @@ Make an enemy helpless with irresistible laughter.
 
 An enemy gets additional damage from you, and you can easily detect it for a limited time.
 
-# 84. - *Ice Knife* © (S) level 1 Conjuration [UB]
+# 84. - *Ice Knife* (S) level 1 Conjuration [UB]
 
 **[Druid, Sorcerer, Wizard]**
 
@@ -550,7 +881,7 @@ Provide magical armor to an ally who doesn't wear armor.
 
 Strike one or more enemies with projectiles that can't miss.
 
-# 92. - *Magnify Gravity* © (V,S) level 1 Transmutation [UB]
+# 92. - *Magnify Gravity* (V,S) level 1 Transmutation [UB]
 
 **[Wizard]**
 
@@ -581,19 +912,19 @@ Touch an ally to give them protection from evil or good creatures for a limited 
 Unleashes a swarm of 4 radiant projectiles that deal 1d4 radiant damage each.
 When you cast this spell using a spell slot of 2nd level or higher, the spell creates 1 more projectile for each slot above 1st.
 
-# 97. - *Ray of Sickness* © (V,S) level 1 Necromancy [UB]
+# 97. - *Ray of Sickness* (V,S) level 1 Necromancy [UB]
 
 **[Sorcerer, Wizard]**
 
 You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn. The damage increases by 1d8 for each spell slot level above 1.
 
-# 98. - *Sanctuary* © (V,S) level 1 Abjuration [UB]
+# 98. - *Sanctuary* (V,S) level 1 Abjuration [UB]
 
 **[Artificer, Cleric]**
 
 You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature loses the attack or spell. This spell doesn't protect the warded creature from area effects. If the warded creature makes an attack or casts a spell, this spell ends.
 
-# 99. - *Searing Smite* © (V) level 1 Evocation [Concentration] [UB]
+# 99. - *Searing Smite* (V) level 1 Evocation [Concentration] [UB]
 
 **[Paladin, Ranger]**
 
@@ -617,13 +948,13 @@ Increase an ally's AC by 2 for a limited time.
 
 Put a number of creatures to sleep for a limited time. Roll 5d8: the total is how many hit points of creatures this spell can affect.
 
-# 103. - *Tasha's Caustic Brew* © (V,S) level 1 Evocation [Concentration] [UB]
+# 103. - *Tasha's Caustic Brew* (V,S) level 1 Evocation [Concentration] [UB]
 
 **[Artificer, Sorcerer, Wizard]**
 
 A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4 acid damage at start of each of its turns. When you cast this spell using a spell slot 2nd level or higher, the damage increases by 2d4 for each slot level above 1st.
 
-# 104. - *Thunderous Smite* © (V) level 1 Evocation [Concentration] [UB]
+# 104. - *Thunderous Smite* (V) level 1 Evocation [Concentration] [UB]
 
 **[Paladin]**
 
@@ -640,19 +971,19 @@ Emit a wave of force that causes damage and pushes creatures and objects away.
 
 When you are damaged by a creature withing range, you can use your reaction to inflict fire damage back at them. This tiefling version of the spell is more powerful than the common one but cannot use a higher level Spell Slot to increase damage.
 
-# 107. - *Witch Bolt* © (V,S) level 1 Evocation [Concentration] [UB]
+# 107. - *Witch Bolt* (V,S) level 1 Evocation [Concentration] [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
 A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 1d12 lightning damage, and on each of your turns for the duration, you can use your action to deal 1d12 lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
 
-# 108. - *Wrathful Smite* © (V) level 1 Necromancy [Concentration] [UB]
+# 108. - *Wrathful Smite* (V) level 1 Necromancy [Concentration] [UB]
 
 **[Paladin]**
 
 The target takes an extra 1d6 Necrotic damage from the attack, and it must succeed on a Wisdom saving throw or have the Frightened condition until the spell ends. At the end of each of its turns, the Frightened target repeats the save, ending the spell on itself on a success. The damage increases by 1d6 for each spell slot level above 1.
 
-# 109. - *Zephyr Strike* © (V) level 1 Transmutation [Concentration] [UB]
+# 109. - *Zephyr Strike* (V) level 1 Transmutation [Concentration] [UB]
 
 **[Ranger]**
 
@@ -664,7 +995,7 @@ You move like the wind. For the duration, your movement doesn't provoke opportun
 
 Launch an acid arrow that deals some damage even if you miss your shot.
 
-# 111. - *Aganazzar's Scorcher* © (V,S) level 2 Evocation [UB]
+# 111. - *Aganazzar's Scorcher* (V,S) level 2 Evocation [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -694,7 +1025,7 @@ Blind an enemy for one minute.
 
 Makes you blurry and harder to hit for up to one minute.
 
-# 116. - *Borrowed Knowledge* © (V,S) level 2 Divination [UB]
+# 116. - *Borrowed Knowledge* (V,S) level 2 Divination [UB]
 
 **[Bard, Cleric, Warlock, Wizard]**
 
@@ -712,7 +1043,7 @@ Your next hit causes additional radiant damage and your target becomes luminous.
 
 Stops allies from being charmed or frightened and makes hostile humanoids indifferent.
 
-# 119. - *Cloud of Daggers* © (V,S) level 2 Conjuration [Concentration] [UB]
+# 119. - *Cloud of Daggers* (V,S) level 2 Conjuration [Concentration] [UB]
 
 **[Bard, Sorcerer, Warlock, Wizard]**
 
@@ -784,7 +1115,7 @@ Paralyze a humanoid you can see for a limited time.
 
 Make an ally invisible for a limited time.
 
-# 131. - *Kinetic Jaunt* © (S) level 2 Transmutation [Concentration] [UB]
+# 131. - *Kinetic Jaunt* (S) level 2 Transmutation [Concentration] [UB]
 
 **[Artificer, Bard, Sorcerer, Wizard]**
 
@@ -822,7 +1153,7 @@ Allow a creature to levitate and gain control of its aerial movement for a limit
 
 A nonmagical weapon becomes a +1 weapon for up to one hour.
 
-# 137. - *Mirror Image* © (V,S) level 2 Illusion [UB]
+# 137. - *Mirror Image* (V,S) level 2 Illusion [UB]
 
 **[Bard, Sorcerer, Warlock, Wizard]**
 
@@ -882,7 +1213,7 @@ Cures and protects against poison.
 
 Weaken an enemy so they deal less damage for one minute.
 
-# 147. - *Rime's Binding Ice* © (S) level 2 Evocation [UB]
+# 147. - *Rime's Binding Ice* (S) level 2 Evocation [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -900,7 +1231,7 @@ Fling rays of fire at one or more enemies.
 
 You can see invisible creatures.
 
-# 150. - *Shadow Blade* © (V,S) level 2 Illusion [Concentration] [UB]
+# 150. - *Shadow Blade* (V,S) level 2 Illusion [Concentration] [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
@@ -918,7 +1249,7 @@ Triggers a sudden noise that causes Thunder Damage in a 2-cell radius.
 
 Creates a sphere four cells in radius, inside which sound cannot exist. Stops thunder damage and prevents spellcasting using verbal components.
 
-# 153. - *Snilloc's Snowball Storm* © (V,S) level 2 Evocation [UB]
+# 153. - *Snilloc's Snowball Storm* (V,S) level 2 Evocation [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -942,24 +1273,24 @@ Grows spikes and thorns in the area, making the terrain difficult and causing da
 
 Summon a weapon that fights for you.
 
-# 157. - *Tasha's Mind Whip* © (V) level 2 Enchantment [UB]
+# 157. - *Tasha's Mind Whip* (V) level 2 Enchantment [UB]
 
 **[Sorcerer, Wizard]**
 
 You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
-# 158. - *Warding Bond* © (V,S) level 2 Abjuration [SOL]
+# 158. - *Warding Bond* (V,S) level 2 Abjuration [SOL]
 
 
 Creates a bond with the target, who gains +1 AC, +1 to saving throws and resistance to all damage, but you share all damage it receives. Lasts for one hour.
 
-# 159. - *Web* © (V,S) level 2 Conjuration [Concentration] [UB]
+# 159. - *Web* (V,S) level 2 Conjuration [Concentration] [UB]
 
 **[Artificer, Sorcerer, Wizard]**
 
 You conjure a mass of thick, sticky webbing at a point of your choice within range. The webs fill a 20-foot cube from that point for the duration. The webs are difficult terrain and lightly obscure their area. Each creature that enters them during its turn must make a Dexterity saving throw. On a failed save, the creature is restrained as long as it remains in the webs or until it breaks free. A creature restrained by the webs can use its actions to make a Strength check against your spell save DC. If it succeeds, it is no longer restrained.
 
-# 160. - *Wither and Bloom* © (V,S) level 2 Necromancy [UB]
+# 160. - *Wither and Bloom* (V,S) level 2 Necromancy [UB]
 
 **[Druid, Sorcerer, Wizard]**
 
@@ -971,13 +1302,13 @@ You invoke both death and life upon a 10-foot-radius sphere centered on an ally.
 
 You create the visage of a massive green snake that appears for an instant before bearing down on your foe. Choose a creature  you can see within range. The target must make a constitution saving throw, taking 4d10 poison damage on a failure, or half as much damage on a successful one. A creature that fails its saving throw is also poisoned, and its speed is halved while poisoned by this spell. At the end of each of its turns, a target may make a constitution saving throw, ending the poison on a success. Otherwise, the poison lasts for 1 minute. When you cast this spell using a spell slot of 4th level or higher, you may target an additional creature within range for each slot level above 3rd.
 
-# 162. - *Ashardalon's Stride* © (V,S) level 3 Transmutation [Concentration] [UB]
+# 162. - *Ashardalon's Stride* (V,S) level 3 Transmutation [Concentration] [UB]
 
 **[Artificer, Ranger, Sorcerer, Wizard]**
 
 The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn't provoke opportunity attacks. When you move within 5 feet of a creature, it takes 1d6 fire damage from your trail of heat. A creature can take this damage only once during a turn. When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. The spell deals an additional 1d6 fire damage for each slot level above 3rd.
 
-# 163. - *Aura of Vitality* © (V) level 3 Evocation [Concentration] [UB]
+# 163. - *Aura of Vitality* (V) level 3 Evocation [Concentration] [UB]
 
 **[Cleric, Paladin]**
 
@@ -995,7 +1326,7 @@ Raise hope and vitality.
 
 Curses a creature you can touch.
 
-# 166. - *Blinding Smite* © (V) level 3 Evocation [Concentration] [UB]
+# 166. - *Blinding Smite* (V) level 3 Evocation [Concentration] [UB]
 
 **[Paladin]**
 
@@ -1031,7 +1362,7 @@ Interrupt an enemy's spellcasting.
 
 Conjure 15 units of food.
 
-# 172. - *Crusader's Mantle* © (V) level 3 Evocation [Concentration] [UB]
+# 172. - *Crusader's Mantle* (V) level 3 Evocation [Concentration] [UB]
 
 **[Paladin]**
 
@@ -1049,7 +1380,7 @@ Summon a globe of bright light.
 
 End active spells on a creature or object.
 
-# 175. - *Elemental Weapon* © (V,S) level 3 Transmutation [Concentration] [UB]
+# 175. - *Elemental Weapon* (V,S) level 3 Transmutation [Concentration] [UB]
 
 **[Artificer, Druid, Paladin, Ranger]**
 
@@ -1067,7 +1398,7 @@ Frighten creatures and force them to flee.
 
 Launch a fireball that explodes from a point of your choosing.
 
-# 178. - *Flame Arrows* © (M,V,S) level 3 Transmutation [Concentration] [UB]
+# 178. - *Flame Arrows* (M,V,S) level 3 Transmutation [Concentration] [UB]
 
 **[Artificer, Druid, Ranger, Sorcerer, Wizard]**
 
@@ -1085,7 +1416,7 @@ An ally you touch gains the ability to fly for a limited time.
 
 Make an ally faster and more agile, and grant them an additional action for a limited time.
 
-# 181. - *Hunger of Hadar* © (V,S) level 3 Transmutation [Concentration] [UB]
+# 181. - *Hunger of Hadar* (V,S) level 3 Transmutation [Concentration] [UB]
 
 **[Warlock]**
 
@@ -1097,19 +1428,19 @@ You open a gateway to the dark between the stars, a region infested with unknown
 
 Charms enemies to make them harmless until attacked, but also affects allies in range.
 
-# 183. - *Intellect Fortress* © (V) level 3 Abjuration [Concentration] [UB]
+# 183. - *Intellect Fortress* (V) level 3 Abjuration [Concentration] [UB]
 
 **[Artificer, Bard, Sorcerer, Warlock, Wizard]**
 
 For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws. When you cast this spell using a spell slot of 4th level or higher, you may target an additional creature within range for each slot level above 3rd.
 
-# 184. - *Life Transference* © (V,S) level 3 Necromancy [UB]
+# 184. - *Life Transference* (V,S) level 3 Necromancy [UB]
 
 **[Cleric, Wizard]**
 
 You sacrifice some of your health to mend another creature's injuries. You take 4d8 necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take. When you cast this spell using a spell s lot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.
 
-# 185. - *Lightning Arrow* © (V,S) level 3 Transmutation [Concentration] [UB]
+# 185. - *Lightning Arrow* (V,S) level 3 Transmutation [Concentration] [UB]
 
 **[Ranger]**
 
@@ -1133,7 +1464,7 @@ Instantly heals up to six allies you can see.
 
 Touch one willing creature to give them resistance to this damage type.
 
-# 189. - *Pulse Wave* © (V,S) level 3 Evocation [UB]
+# 189. - *Pulse Wave* (V,S) level 3 Evocation [UB]
 
 **[Wizard]**
 
@@ -1169,7 +1500,7 @@ Slows and impairs the actions of up to 6 creatures.
 
 Call forth spirits to protect you.
 
-# 195. - *Spirit Shroud* © (V,S) level 3 Necromancy [Concentration] [UB]
+# 195. - *Spirit Shroud* (V,S) level 3 Necromancy [Concentration] [UB]
 
 **[Cleric, Paladin, Warlock, Wizard]**
 
@@ -1184,7 +1515,7 @@ When you cast this spell using a spell slot of 4th level or higher, the damage i
 
 Create a cloud of incapacitating, noxious gas.
 
-# 197. - *Thunder Step* © (V) level 3 Conjuration [UB]
+# 197. - *Thunder Step* (V) level 3 Conjuration [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
@@ -1214,13 +1545,13 @@ Create a wall of wind that causes damage, pushes creatures and objects away, and
 
 Create a blast of cold wind to chill your enemies and knock them prone.
 
-# 202. - *Aura of Life* © (V) level 4 Abjuration [Concentration] [UB]
+# 202. - *Aura of Life* (V) level 4 Abjuration [Concentration] [UB]
 
 **[Cleric, Paladin]**
 
 Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura, including you, has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.
 
-# 203. - *Aura of Purity* © (V) level 4 Abjuration [Concentration] [UB]
+# 203. - *Aura of Purity* (V) level 4 Abjuration [Concentration] [UB]
 
 **[Cleric, Paladin]**
 
@@ -1297,7 +1628,7 @@ Grants you control over an enemy beast.
 
 You whisper dreadful words that cause immense mental anguish in your enemies. On a failed wisdom saving throw, they take psychic damage and become frightened until the end of their next turn, moving away from you as much as possible. On a successful save, they take half as much damage and are not frightened.
 
-# 216. - *Elemental Bane* © (V,S) level 4 Transmutation [Concentration] [UB]
+# 216. - *Elemental Bane* (V,S) level 4 Transmutation [Concentration] [UB]
 
 **[Artificer, Druid, Warlock, Wizard]**
 
@@ -1321,7 +1652,7 @@ Grants immunity to movement restrictions, as well as being paralyzed or restrain
 
 Conjures a giant version of a natural insect or arthropod.
 
-# 220. - *Gravity Sinkhole* © (V,S) level 4 Evocation [UB]
+# 220. - *Gravity Sinkhole* (V,S) level 4 Evocation [UB]
 
 **[Wizard]**
 
@@ -1339,7 +1670,7 @@ Target becomes invisible for the duration, even when attacking or casting spells
 
 Conjures a large spectral guardian that damages approaching enemies.
 
-# 223. - *Guardian of Nature* © (V) level 4 Transmutation [Concentration] [UB]
+# 223. - *Guardian of Nature* (V) level 4 Transmutation [Concentration] [UB]
 
 **[Druid, Ranger]**
 
@@ -1363,7 +1694,7 @@ Reveals full bestiary knowledge for the affected creatures.
 
 You weave a song into the air, causing those who hear it to applaud its magnificence. All creatures of your choice inside a 30-foot-cube within range must make a Charisma saving throw or be forced to clap and shout until the start of your next turn. A creature that is charmed by you always fails this saving throw. A clapping creature cannot perform any actions that require their hands or mouth but can otherwise act normally. This spell has no effect on creatures that are immune to charm.
 
-# 227. - *Mordenkainen's Faithful Hound* © (V,S) level 4 Conjuration [UB]
+# 227. - *Mordenkainen's Faithful Hound* (V,S) level 4 Conjuration [UB]
 
 **[Artificer, Wizard]**
 
@@ -1381,19 +1712,19 @@ Causes psychic damage to the target creature with each turn, unless a saving thr
 
 You unleash a debilitating wave of mental power in a 30-foot cone. Each creature in the area must make an Intelligence saving throw. On a failed save, a target takes 5d8 psychic damage, becomes dazzled and has its movement speed halved until the end of your next turn. On a successful save, a target only takes half as much damage. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 4th.
 
-# 230. - *Raulothim's Psychic Lance* © (V) level 4 Enchantment [UB]
+# 230. - *Raulothim's Psychic Lance* (V) level 4 Enchantment [UB]
 
 **[Bard, Sorcerer, Warlock, Wizard]**
 
 You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. It must succeed on an Intelligence saving throw or take 7d6 psychic damage and be incapacitated until the end of your next turn. On a successful save, the creature takes half damage and isn't incapacitated. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 4th.
 
-# 231. - *Sickening Radiance* © (V,S) level 4 Evocation [Concentration] [UB]
+# 231. - *Sickening Radiance* (V,S) level 4 Evocation [Concentration] [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
 Dim light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends. When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take 4d10 radiant damage, and it suffers one level of exhaustion and emits a dim light in a 5-foot radius. This light makes it impossible for the creature to benefit from being invisible. The light and any levels of exhaustion caused by this spell go away when the spell ends.
 
-# 232. - *Staggering Smite* © (V) level 4 Evocation [Concentration] [UB]
+# 232. - *Staggering Smite* (V) level 4 Evocation [Concentration] [UB]
 
 **[Paladin]**
 
@@ -1405,7 +1736,7 @@ The next time you hit a creature with a melee weapon attack during this spell's 
 
 Grants resistance to non-magical bludgeoning, slashing, and piercing damage.
 
-# 234. - *Vitriolic Sphere* © (V,S) level 4 Evocation [UB]
+# 234. - *Vitriolic Sphere* (V,S) level 4 Evocation [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -1417,13 +1748,13 @@ You point at a place within range, and a glowing 1-foot ball of emerald acid str
 
 Create a burning wall that injures creatures in or next to it.
 
-# 236. - *Banishing Smite* © (V) level 5 Conjuration [Concentration] [UB]
+# 236. - *Banishing Smite* (V) level 5 Conjuration [Concentration] [UB]
 
 **[Paladin]**
 
 The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points of fewer, you banish it. If the target is native to a different plane of existence than the on you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demi-plane. While there, the target is incapacitated. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.
 
-# 237. - *Circle of Power* © (V) level 5 Abjuration [Concentration] [UB]
+# 237. - *Circle of Power* (V) level 5 Abjuration [Concentration] [UB]
 
 **[Paladin]**
 
@@ -1453,13 +1784,13 @@ Conjures an elemental of the chosen element that fights alongside you. If you lo
 
 Hit a creature to inflict a disease from the options.
 
-# 242. - *Dawn* © (V,S) level 5 Evocation [Concentration] [UB]
+# 242. - *Dawn* (V,S) level 5 Evocation [Concentration] [UB]
 
 **[Cleric, Wizard]**
 
 The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight. When the cylinder appears, each creature in it must make a Constitution saving throw, taking 4d10 radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder. If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.
 
-# 243. - *Destructive Wave* © (V) level 5 Evocation [UB]
+# 243. - *Destructive Wave* (V) level 5 Evocation [UB]
 
 **[Paladin]**
 
@@ -1477,7 +1808,7 @@ Celestial, elementals, feys, fiends, and undead have disadvantage on attacks aga
 
 Grants you control over an enemy creature.
 
-# 246. - *Far Step* © (V) level 5 Conjuration [Concentration] [UB]
+# 246. - *Far Step* (V) level 5 Conjuration [Concentration] [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
@@ -1501,13 +1832,13 @@ Removes one detrimental condition, such as a charm or curse, or an effect that r
 
 Paralyzes a creature unless it succeeds a WIS saving throw. No effect on undead.
 
-# 250. - *Holy Weapon* © (V,S) level 5 Evocation [Concentration] [UB]
+# 250. - *Holy Weapon* (V,S) level 5 Evocation [Concentration] [UB]
 
 **[Cleric, Paladin]**
 
 You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration. As a bonus action on your turn, if the weapon is within 30 ft, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn't blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.
 
-# 251. - *Immolation* © (V) level 5 Evocation [Concentration] [UB]
+# 251. - *Immolation* (V) level 5 Evocation [Concentration] [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -1543,7 +1874,7 @@ Causes massive psychic damage to all creatures around you, and incapacitates the
 
 Brings one creature back to life, up to 10 days after death.
 
-# 257. - *Skill Empowerment* © (V,S) level 5 Divination [UB]
+# 257. - *Skill Empowerment* (V,S) level 5 Divination [UB]
 
 **[Artificer, Bard, Sorcerer, Wizard]**
 
@@ -1555,25 +1886,25 @@ Your magic deepens a creature's understanding of its own talent. You touch one w
 
 A small orb the same color as the balloon used appears at a point you choose within range then expands with a loud crack into an explosion of force. Each creature in a 30-foot radius must make a Strength saving throw. A target is pushed up to 30 feet away from the center and dealt 6d8 thunder damage on a failed save, or half as much damage and no movement on a successful one.
 
-# 259. - *Steel Wind Strike* © (M,S) level 5 Conjuration [UB]
+# 259. - *Steel Wind Strike* (M,S) level 5 Conjuration [UB]
 
 **[Ranger, Wizard]**
 
 You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes 6d10 force damage. You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed.
 
-# 260. - *Swift Quiver* © (M,V,S) level 5 Transmutation [Concentration] [UB]
+# 260. - *Swift Quiver* (M,V,S) level 5 Transmutation [Concentration] [UB]
 
 **[Ranger]**
 
 When you cast the spell and as a Bonus Action until it ends, you can make two attacks with a weapon that fires Arrows or Bolts, such as a Longbow or a Light Crossbow. The spell magically creates the ammunition needed for each attack. Each Arrow or Bolt created by the spell deals damage like a nonmagical piece of ammunition of its kind and disintegrates immediately after it hits or misses.
 
-# 261. - *Synaptic Static* © (V) level 5 Evocation [UB]
+# 261. - *Synaptic Static* (V) level 5 Evocation [UB]
 
 **[Bard, Sorcerer, Warlock, Wizard]**
 
 You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A target takes 8d6 psychic damage on a failed save, or half as much damage on a successful After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its attack rolls and ability checks. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-# 262. - *Telekinesis* © (V,S) level 5 Transmutation [Concentration] [UB]
+# 262. - *Telekinesis* (V,S) level 5 Transmutation [Concentration] [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -1615,7 +1946,7 @@ Causes massive force damage on the target, which can be disintegrated if reduced
 
 Your eyes gain a specific property which can target a creature each turn
 
-# 269. - *Fizban's Platinum Shield* © (M,V,S) level 6 Abjuration [Concentration] [UB]
+# 269. - *Fizban's Platinum Shield* (M,V,S) level 6 Abjuration [Concentration] [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -1643,7 +1974,7 @@ Toss a huge ball of cold energy that explodes on impact
 
 A sphere surrounding you prevents any spell up to 5th level to affect anyone inside it.
 
-# 273. - *Gravity Fissure* © (V,S) level 6 Evocation [UB]
+# 273. - *Gravity Fissure* (V,S) level 6 Evocation [UB]
 
 **[Wizard]**
 
@@ -1685,7 +2016,7 @@ A poisonous wave erupts from you, engulfing those close by. Each creature within
 
 You raise both hands as you evoke six transparent blades around you as a bonus action. When you cast this spell, and as a bonus action on each subsequent turn, you can throw one of these blades at a creature within 60 feet from you. Make a ranged spell attack. On a hit, the target takes 4d10 force damage. When you cast this spell using a spell slot of 7th level or higher, the damage of each blade increases by 1d10 for each slot level above 6th.
 
-# 280. - *Scatter* © (V) level 6 Conjuration [UB]
+# 280. - *Scatter* (V) level 6 Conjuration [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
@@ -1703,13 +2034,13 @@ Choose one of the following damage types: acid, cold, fire, lightning, necrotic,
 
 You conjure a line of radiance which can burn and blind creatures in the line of effect; undead and oozes save with disadvantage. The beam can be retargeted each turn
 
-# 283. - *Tasha's Otherworldly Guise* © (M,V,S) level 6 Transmutation [Concentration] [UB]
+# 283. - *Tasha's Otherworldly Guise* (M,V,S) level 6 Transmutation [Concentration] [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
 Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself.
 
-# 284. - *Tenser's Transformation* © (V,S) level 6 Transmutation [Concentration] [UB]
+# 284. - *Tenser's Transformation* (V,S) level 6 Transmutation [Concentration] [UB]
 
 **[Wizard]**
 
@@ -1745,7 +2076,7 @@ Summon a weapon that fights for you.
 
 Conjures a celestial creature of challenge rating 4 that fights alongside you. If you lose concentration, the creature is dismissed.
 
-# 289. - *Crown of Stars* © (V,S) level 7 Evocation [UB]
+# 289. - *Crown of Stars* (V,S) level 7 Evocation [UB]
 
 **[Sorcerer, Warlock, Wizard]**
 
@@ -1763,7 +2094,7 @@ Conjures a ball of fire that grows more powerful with time, detonating when a cr
 
 Utter a divine word that inflicts various negative conditions on enemies you can see, based on their HP. Also banishes all celestials, elementals, feys, and fiends if they fail their saving throws.
 
-# 292. - *Draconic Transformation* © (M,V,S) level 7 Transmutation [Concentration] [UB]
+# 292. - *Draconic Transformation* (M,V,S) level 7 Transmutation [Concentration] [UB]
 
 **[Druid, Sorcerer, Wizard]**
 
@@ -1814,7 +2145,7 @@ With a word, you call positive energy into the target's body to heal and ward it
 
 Brings one creature back to life, up to 100 years after death.
 
-# 300. - *Reverse Gravity* © (V,S) level 7 Transmutation [Concentration] [UB]
+# 300. - *Reverse Gravity* (V,S) level 7 Transmutation [Concentration] [UB]
 
 **[Druid, Sorcerer, Wizard]**
 
@@ -1826,7 +2157,7 @@ This spell reverses gravity in a 50-foot-radius, 100-foot-high cylinder centered
 
 Inscribe a glyph on a surface. When an enemy starts its turn in the area or enters it, the glyph's effect is applied in a sphere with a 12-cell radius.
 
-# 302. - *Abi-Dalzim's Horrid Wilting* © (V,S) level 8 Necromancy [UB]
+# 302. - *Abi-Dalzim's Horrid Wilting* (V,S) level 8 Necromancy [UB]
 
 **[Sorcerer, Wizard]**
 
@@ -1856,7 +2187,7 @@ You create a seismic disturbance that violently shakes the ground and the creatu
 
 You blast the mind of one creature, attempting to shatter its intellect and personality. The target takes 4d6 psychic damage and must make an Intelligence saving throw. On a failed save, the creature's Intelligence, Charisma and Wisdom scores become 1 and it is unable to cast spells. These effects last for 1 minute.
 
-# 307. - *Glibness* © (V) level 8 Transmutation [UB]
+# 307. - *Glibness* (V) level 8 Transmutation [UB]
 
 **[Bard, Warlock]**
 
@@ -1874,7 +2205,7 @@ Allies within 6 cells of you when you cast Holy Aura gain advantage on all savin
 
 A cloud of smoke appears in a sphere with a 4-cell radius. The cloud damages each creature inside it, and moves away from you each turn until the end of the spell's duration or until a moderate wind disperses the cloud.
 
-# 310. - *Maddening Darkness* © (V) level 8 Evocation [Concentration] [UB]
+# 310. - *Maddening Darkness* (V) level 8 Evocation [Concentration] [UB]
 
 **[Warlock, Wizard]**
 
@@ -1886,7 +2217,7 @@ Magical darkness spreads from a point you choose within range to fill a 60-foot-
 
 You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the spell's duration or until it escapes the maze.
 
-# 312. - *Mind Blank* © (V,S) level 8 Transmutation [UB]
+# 312. - *Mind Blank* (V,S) level 8 Transmutation [UB]
 
 **[Bard, Wizard]**
 
@@ -1927,61 +2258,61 @@ You create a blast of thunder in a sphere that causes thunder and lightning dama
 
 Turns other creatures in to beasts for one day.
 
-# 319. - *Foresight* © (V,S) level 9 Transmutation [UB]
+# 319. - *Foresight* (V,S) level 9 Transmutation [UB]
 
 **[Bard, Druid, Warlock, Wizard]**
 
 You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.
 
-# 320. - *Invulnerability* © (M,V,S) level 9 Abjuration [Concentration] [UB]
+# 320. - *Invulnerability* (M,V,S) level 9 Abjuration [Concentration] [UB]
 
 **[Wizard]**
 
 You are immune to all damage until the spell ends.
 
-# 321. - *Mass Heal* © (V,S) level 9 Transmutation [UB]
+# 321. - *Mass Heal* (V,S) level 9 Transmutation [UB]
 
 **[Cleric]**
 
 A flood of healing energy flows from you into injured creatures around you. You restore 120 hit points each to 6 creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on undead or constructs.
 
-# 322. - *Meteor Swarm* © (V,S) level 9 Transmutation [UB]
+# 322. - *Meteor Swarm* (V,S) level 9 Transmutation [UB]
 
 **[Sorcerer, Wizard]**
 
 Blazing orbs of fire plummet to the ground at a single point you can see within range. Each creature in a 40-foot-radius sphere centered on the point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes 20d6 fire damage and 20d6 bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.
 
-# 323. - *Power Word Heal* © (V) level 9 Enchantment [UB]
+# 323. - *Power Word Heal* (V) level 9 Enchantment [UB]
 
 **[Bard, Cleric]**
 
 A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, poisoned, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.
 
-# 324. - *Power Word Kill* © (V,S) level 9 Transmutation [UB]
+# 324. - *Power Word Kill* (V,S) level 9 Transmutation [UB]
 
 **[Bard, Sorcerer, Warlock, Wizard]**
 
 You compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage.
 
-# 325. - *Psychic Scream* © (S) level 9 Enchantment [UB]
+# 325. - *Psychic Scream* (S) level 9 Enchantment [UB]
 
 **[Bard, Sorcerer, Warlock, Wizard]**
 
 You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Each target must make an Intelligence saving throw. On a failed save, a target takes 14d6 psychic damage and is stunned for 1 minute. On a successful save, a target takes half as much damage and isn't stunned. A stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends.
 
-# 326. - *Shapechange* © (M,V,S) level 9 Transmutation [Concentration] [UB]
+# 326. - *Shapechange* (M,V,S) level 9 Transmutation [Concentration] [UB]
 
 **[Druid, Wizard]**
 
 You assume the form of a different creature for the duration. The new form can be of any creature with a challenge rating equal to your level or lower.
 
-# 327. - *Time Stop* © (V) level 9 Transmutation [UB]
+# 327. - *Time Stop* (V) level 9 Transmutation [UB]
 
 **[Sorcerer, Wizard]**
 
 You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4+1 turns in a row, during which you can use actions and move as normal. This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you.
 
-# 328. - *Weird* © (V,S) level 9 Illusion [Concentration] [UB]
+# 328. - *Weird* (V,S) level 9 Illusion [Concentration] [UB]
 
 **[Warlock, Wizard]**
 
